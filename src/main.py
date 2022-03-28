@@ -124,7 +124,7 @@ allocation1 = portfolio1.to_df()
 print(allocation1, file=f)
 
 # Si immagini di avere il seguente capitale iniziale (in €) e lo si impieghi almeno per il 90% 
-# per costruire dei portafogli composti dai 10 ticker selezionati (solo posizioni long, non negative)
+# per costruire dei portafogli composti dai 10 ticker selezionati
 capital = 1000000
 min_invest = 0.90
 
