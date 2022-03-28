@@ -7,7 +7,7 @@ La challenge si divide in 5 punti:
 4. Composizione del portafoglio ogni giorno
 5. Bonus: Fees e Forecasts
 
-Gli sfidanti dovranno realizzare delle classi che verranno chiamate dal file main.py, il quale NON potrà essere modificato
+Gli sfidanti dovranno realizzare delle classi che verranno chiamate dal file src/main.py, il quale NON potrà essere modificato
 Le classi da realizzare sono:
 - DataLoader
 - DataLoaderDict
@@ -16,6 +16,8 @@ Le classi da realizzare sono:
 - PortfolioBuilder
 - DailyPortfolioBuilder
 - DailyPortfolioBuilderBonus
+
+ATTENZIONE: Seguire attentamente le richieste del file src/main.py, passo per passo
 
 L'obiettivo è quello di realizzare un algoritmo di trading automatico per l'allocazione ottimale di un portafoglio di investimento. 
 
