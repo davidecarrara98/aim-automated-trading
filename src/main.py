@@ -11,7 +11,7 @@ f = open("output/logs.txt", "a") # salveremo tutto l'output stampato a schermo i
 
 ############################################################################
 ### Introduzione
-############################################################################
+# %%###########################################################################
 
 # Yahoo Finance consente di avere accesso a dati di mercato rispetto ad un "Ticker", 
 # ovvero un codice in grado di identificare un particolare strumento finanziario
@@ -33,7 +33,7 @@ tickers = ["ENEL.MI", "STLA.MI", "ENI.MI", "ISP.MI", "RACE.MI", "STM.MI", "G.MI"
 
 ############################################################################
 ### Punto 1
-############################################################################
+# %%###########################################################################
 
 # Classes to develop: DataLoader and DataLoaderDict
 from auto_trading_aim.data_loader_dict import DataLoaderDict
