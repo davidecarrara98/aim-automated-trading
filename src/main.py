@@ -106,7 +106,8 @@ portfolio1.plot()
 # Si costruisce un nuovo portafoglio e lo si somma al portafoglio precedente
 # tramite Operator Overloading
 # portfolio2 conterrà 2 azioni di ENEL.MI e 9 di ISP.MI
-portfolio2 = portfolio1["ENEL.MI"] / 2 + Asset(ticker_name = "ISP.MI", prices = historical_data["ISP.MI"].prices, volume_owned = 9)
+portfolio2 = (portfolio1["ENEL.MI"] / 2) + Asset(ticker_name = "ISP.MI",
+                                               prices = historical_data["ISP.MI"].prices, volume_owned = 9)
 portfolio3 = portfolio1 + portfolio2
 portfolio3.plot()
 

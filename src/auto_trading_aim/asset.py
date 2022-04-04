@@ -15,3 +15,11 @@ class Asset(object):
         self.mkt_returns.hist()
         plt.show()
         return
+
+    def __add__(self, other):
+        return ptf.Portfolio(allocation={self.ticker_name:self.volume_owned, other.ticker_name:other.volume_owned},
+                             prices_dict={self.ticker_name : self.prices, other.ticker_name:other.prices})
+
+    def __truediv__(self, other):
+        self.volume_owned /= other
+        return self
